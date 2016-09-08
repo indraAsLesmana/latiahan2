@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
-//test
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     //define button
