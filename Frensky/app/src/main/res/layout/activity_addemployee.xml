@@ -122,9 +122,14 @@
             android:text="Join date" />
 
         <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/addemployee_joindate"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.7" />
+            android:layout_weight="0.7"
+            android:clickable="true"
+            android:editable="false"
+            android:onClick="joindate"
+            />
     </LinearLayout>
     <!--Notes-->
     <LinearLayout
@@ -162,12 +167,16 @@
         <Button
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:text="Take pictute" />
+            android:text="Take pictute"
+            android:id="@+id/add_picture"
+            />
 
         <Button
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:text="Save Employee" />
+            android:text="Save Employee"
+            android:id="@+id/save_employee"
+            />
 
     </LinearLayout>
 
