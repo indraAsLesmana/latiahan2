@@ -1,0 +1,48 @@
+#
+# generated on 2016/09/09 04:01:16
+#
+# --table-start--
+dataClass=com.tutor93.tugasfrensky.EmployeEntity
+tableName=employeentity
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+id=true
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=name
+columnName=name
+# --field-end--
+# --field-start--
+fieldName=jobs
+columnName=jobs
+# --field-end--
+# --field-start--
+fieldName=age
+columnName=age
+# --field-end--
+# --field-start--
+fieldName=is_male
+columnName=is_nmale
+# --field-end--
+# --field-start--
+fieldName=join
+columnName=joinDate
+# --field-end--
+# --field-start--
+fieldName=notes
+columnName=notes
+# --field-end--
+# --field-start--
+fieldName=bookmark
+columnName=isBookMark
+# --field-end--
+# --field-start--
+fieldName=avatar
+columnName=avatar
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
